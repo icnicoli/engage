@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Art</title>
+</head>
+<body>
+
+<svg width="200" height="350" xmlns="http://www.w3.org/2000/svg">
+    <!-- Pattern Row 1: 4 Circles -->
+    <circle cx="25" cy="20" r="10" fill="red" />
+    <circle cx="75" cy="20" r="10" fill="red" />
+    <circle cx="125" cy="20" r="10" fill="red" />
+    <circle cx="175" cy="20" r="10" fill="red" />
+
+    <!-- Pattern Row 2: 3 Parallel Lines with Zigzag Lines -->
+    <line x1="20" y1="60" x2="180" y2="60" stroke="green" stroke-width="2" />
+    <polyline points="20,65 40,75 60,65 80,75 100,65 120,75 140,65 160,75 180,65" fill="none" stroke="red" stroke-width="2"/>
+    <line x1="20" y1="80" x2="180" y2="80" stroke="green" stroke-width="2" />
+    <polyline points="20,85 40,95 60,85 80,95 100,85 120,95 140,85 160,95 180,85" fill="none" stroke="red" stroke-width="2"/>
+    <line x1="20" y1="100" x2="180" y2="100" stroke="green" stroke-width="2" />
+
+    <!-- Pattern Row 3: 4 Squares -->
+    <rect x="17.5" y="120" width="15" height="15" fill="green" />
+    <rect x="67.5" y="120" width="15" height="15" fill="green" />
+    <rect x="117.5" y="120" width="15" height="15" fill="green" />
+    <rect x="167.5" y="120" width="15" height="15" fill="green" />
+
+    <!-- Pattern Row 4: 3 Parallel Lines with Zigzag Lines -->
+    <line x1="20" y1="160" x2="180" y2="160" stroke="red" stroke-width="2" />
+    <polyline points="20,165 40,175 60,165 80,175 100,165 120,175 140,165 160,175 180,165" fill="none" stroke="green" stroke-width="2"/>
+    <line x1="20" y1="180" x2="180" y2="180" stroke="red" stroke-width="2" />
+    <polyline points="20,185 40,195 60,185 80,195 100,185 120,195 140,185 160,195 180,185" fill="none" stroke="green" stroke-width="2"/>
+    <line x1="20" y1="200" x2="180" y2="200" stroke="red" stroke-width="2" />
+
+    <!-- Pattern Row 5: 4 Big Diamonds -->
+    <polygon points="25,240 32.5,220 40,240 32.5,260" fill="red" />
+    <polygon points="75,240 82.5,220 90,240 82.5,260" fill="red" />
+    <polygon points="125,240 132.5,220 140,240 132.5,260" fill="red" />
+    <polygon points="175,240 182.5,220 190,240 182.5,260" fill="red" />
+
+    <!-- Pattern Row 6: 3 Parallel Lines with Zigzag Lines -->
+    <line x1="20" y1="280" x2="180" y2="280" stroke="green" stroke-width="2" />
+    <polyline points="20,285 40,295 60,285 80,295 100,285 120,295 140,285 160,295 180,285" fill="none" stroke="red" stroke-width="2"/>
+    <line x1="20" y1="300" x2="180" y2="300" stroke="green" stroke-width="2" />
+    <polyline points="20,305 40,315 60,305 80,315 100,305 120,315 140,305 160,315 180,305" fill="none" stroke="red" stroke-width="2"/>
+    <line x1="20" y1="320" x2="180" y2="320" stroke="green" stroke-width="2" />
+</svg>
+
+</body>
+</html>
